@@ -1,8 +1,8 @@
 {
-  "label": "Requests",
+  "label": "API Client",
   "position": 2,
   "link": {
     "type": "generated-index",
-    "description": "Requests configs"
+    "description": "API client configs"
   }
 }
