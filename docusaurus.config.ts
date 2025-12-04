@@ -43,7 +43,18 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/hanlogy/api-studio/',
+          // editUrl: 'https://github.com/hanlogy/api-studio/',
+        },
+        blog: {
+          showReadingTime: true,
+          feedOptions: {
+            type: ['rss', 'atom'],
+            xslt: true,
+          },
+          // Useful options to enforce blogging best practices
+          onInlineTags: 'warn',
+          onInlineAuthors: 'warn',
+          onUntruncatedBlogPosts: 'warn',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -69,15 +80,16 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Docs',
         },
+        { to: '/blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/hanlogy/api-studio/issues',
+          href: 'https://github.com/hanlogy/app.api-studio/discussions',
           label: 'Support',
           position: 'left',
         },
         {
-          href: 'https://github.com/hanlogy/api-studio',
+          href: 'https://github.com/hanlogy/app.api-studio',
           label: 'GitHub',
           position: 'right',
         },

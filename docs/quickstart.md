@@ -40,8 +40,3 @@ This file defines the workspace configuration. It must:
 
 Launch **Api Studio**, click **"Open Workspace..."**, and select the folder you
 just created.
-
-## 3. Next Steps
-
-Check out the [Configs](/docs/category/configs) to learn how to create workspace
-config, collections, and requests.

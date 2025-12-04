@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+title: Collection
 ---
 
 # Collection Config
@@ -89,5 +90,5 @@ All variables can be reassigned at run-time using `requestMiddleware.js`.
 
 ## `requests`
 
-A list of request definitions. See [Request config](/docs/configs/request) for
+A list of request definitions. See [Request config](/docs/configs/api-client/request) for
 details.
